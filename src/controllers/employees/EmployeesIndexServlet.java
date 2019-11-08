@@ -1,4 +1,4 @@
-package controllers.toppage;
+package controllers.employees;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class TopPageIndexServlet
+ * Servlet implementation class EmployeesIndexServlet
  */
-@WebServlet("/index.html")
-public class TopPageIndexServlet extends HttpServlet {
+@WebServlet("/employees/index")
+public class EmployeesIndexServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public TopPageIndexServlet() {
+    public EmployeesIndexServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
