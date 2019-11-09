@@ -50,4 +50,3 @@ public class EmployeesDestroyServlet extends HttpServlet {
     }
 
 }
-Tomc
